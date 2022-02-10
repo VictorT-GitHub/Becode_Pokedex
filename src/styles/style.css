@@ -10,11 +10,12 @@ body {
   background: rgb(45, 45, 48);
 }
 section {
-  margin-top: 45px;
+  margin-top: 35px;
 }
 
 h4 {
   padding: 4px 0;
+  font-size: 15px;
 }
 
 #inputs {
@@ -44,11 +45,12 @@ button {
   display: flex;
   justify-content: space-around;
 }
+
 #movesContainer,
 #idsContainer,
 #imgsContainer {
   width: 380px;
-  max-height: 65vh;
+  max-height: 55vh;
 
   padding: 22px 32px;
 
@@ -56,14 +58,16 @@ button {
   border-radius: 3px;
 
   overflow: auto;
+
+  cursor: pointer;
+}
+#imgsContainer {
+  display: flex;
+  justify-content: center;
 }
 .img {
   height: 100px;
   width: 100px;
 
   background-repeat: no-repeat;
-}
-#imgsContainer {
-  display: flex;
-  justify-content: center;
 }
